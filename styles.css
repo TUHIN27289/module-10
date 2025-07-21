@@ -20,7 +20,43 @@
     overflow: hidden;
     text-overflow: ellipsis;
     /* text-overflow: clip; */
+}
+/* 10.4 transform  */
+.trans-container{
+    width: 400px;
+    height: 400px;
+    background-color: #ff6347;
+}
+.trans-inner{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    /* transform:rotateX(100px);  */
+    /* transform: translateX(200px); */
+    /* transform: translateY(200px); */
+    /* transform: translateZ(200px); */
+    /* transform: scale(.75); */
+    /* transform: rotateX('270'); */
+    /* transform: scale(0.25,0.8); */
+    /* transform: rotate(45deg); */
+    /* transform: scale(.8) rotate(45deg) translateX(200px) translateY(-100px); */
+    /* transform: skewY(170deg); */
+    /* transform: skewX(1.5); */
+    /* transform: matrix(1, 2, 3, 4, 5, 6); */
+    /* transform: translate(120px, 50%); */
+    /* transform: scale(2, 0.5); */
+    /* transform: rotate(0.5turn); */
+    /* transform: skew(30deg, 20deg); */
+    /* transform: scale(0.5) translate(-100%, -100%); */
+    /* transform-origin: 50px 50px; */
+    /* transform-origin: bottom right 60px; */
+    transform-style: flat;
 
-
-
+}
+/* .trans-inner:hover{
+    transform: translateY(-150px) scale(.75) rotate(45deg);
+} */
+.transform-example{
+    
+    margin-left: 200px;
 }
