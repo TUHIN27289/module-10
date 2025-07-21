@@ -1,8 +1,26 @@
 /* 10.3 */
 .overflow-item{
-    width: 400px;
+    width: 300px;
     height: 400px;
     border: 2px solid #ff6347;
     overflow: scroll;
     overflow-y: scroll;
+    padding: 15px;
+}
+
+.overflow-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.ellisis-example{
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* text-overflow: clip; */
+
+
+
 }
