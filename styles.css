@@ -179,3 +179,27 @@ transition-timing-function */
     /* animation: ping-pong 2s ease-in-out 1s 5 alternate; */
     animation: bounce 2s ease-in-out 2s infinite;
 }
+:root{
+    --primary-color: green;
+    --secondary-color: blue;
+    --normal-font:20px;
+    --bold-font: 40px;
+    --primary-bg-color:aqua;
+    --secondary-bg-color: steelblue;
+}
+
+/* .css-h5, .css-h1{
+    font-size: var(--normal-font);
+    color: var(--primary-color);
+} */
+ h1, h5{
+    font-size: var(--normal-font);
+    color: var(--secondary-bg-color);
+ }
+
+ p{
+    background-color: var(--secondary-bg-color);
+ }
+ h3{
+    font-size: var(--bold-font);
+ }
