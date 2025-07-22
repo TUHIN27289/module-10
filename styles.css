@@ -121,3 +121,61 @@ transition-timing-function */
     transform: translate(400px ,-200px);
 }
 /* 10.7 */
+@keyframes ping-pong {
+    from{
+        left: 0;
+    }
+    to{
+        left: 625px;
+        background-color: green;
+    }
+    
+}
+@keyframes bounce {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        left: 150px;
+        top: 280px;
+        background-color: black;
+    }
+    50%{
+        left: 300px;
+        top: 0px;
+
+        background-color: blue;
+
+    }
+    75%{
+        left: 450px;
+        top: 280px;
+        background-color: darkorange;
+
+    }
+    100%{
+        left: 550px;
+        top: 0px;
+        background-color: violet;
+
+    }
+    
+}
+.animation-box{
+    margin-left: 100px;
+    width: 650px;
+    height: 350px;
+    border: 2px solid black;
+    background-color: aqua;
+
+}
+.animation-circle{
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    /* animation: ping-pong 2s ease-in-out 1s 5 alternate; */
+    animation: bounce 2s ease-in-out 2s infinite;
+}
