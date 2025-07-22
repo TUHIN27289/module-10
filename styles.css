@@ -179,6 +179,8 @@ transition-timing-function */
     /* animation: ping-pong 2s ease-in-out 1s 5 alternate; */
     animation: bounce 2s ease-in-out 2s infinite;
 }
+
+/* 10.8 */
 :root{
     --primary-color: green;
     --secondary-color: blue;
@@ -202,4 +204,25 @@ transition-timing-function */
  }
  h3{
     font-size: var(--bold-font);
+ }
+ .var-item{
+    border: 2px solid var(--secondary-color);
+ }
+
+ .sidebar{
+    /* width: 200px; */
+    color: var(--secondary-bg-color);
+    border: 2px solid var(--primary-color);
+    background-color: #ff6347;
+ }
+ .head{
+    background-color: var(--primary-bg-color);
+    border: 2px solid black;
+    color: aqua;
+ }
+ .css-container{
+    display: grid;
+    
+    grid-template-columns: 200px calc(100% - 400px);
+    height: 500px;
  }
